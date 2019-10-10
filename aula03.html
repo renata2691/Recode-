@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+
+<body>
+    <script>
+        //ENTRADA
+        var n1 = Number(prompt('Digite um valor: '))
+        var n2 = Number(prompt('Digite um valor: '))
+
+            
+        var operacao = prompt('Qual operação deseja realizar ? ')
+        
+        //PROCESSO
+
+        switch (operacao) 
+        {
+            case "a":
+                var resultado = n1 + n2;
+                alert('A soma dos valores= ' + resultado);
+                break;
+
+            case "s":
+                var resultado = n1 - n2;
+                alert('A subtracao dos valores= '+resultado);
+                break;
+
+            case "m":
+               var resultado = n1 * n2;
+                alert('A multplicaçao dos valores= '+resultado);
+                break;
+
+            case "d":
+               var resultado = n1 / n2;
+                alert('A divisao dos valores= '+resultado);
+                break;
+        }
+
+
+    </script>
+</body>
+
+</html>
