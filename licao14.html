@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+
+<body>
+    <script>
+
+        var mercadoria = Number(prompt('Digite o total de mercadorias'))
+        
+        var totalValor = mercadoria
+
+        var somamercadoria = 0;
+
+        
+        do{
+            somamercadoria = somamercadoria + Number(prompt('Digite o valor de cada mercadoria'))
+            mercadoria--
+        }
+
+        while(mercadoria > 0)
+
+        var media = somamercadoria /totalValor
+
+        alert('A media de valores dos produtos no estoque é de   ' + media + '  total de produtos no estoque  ' + somamercadoria )
+    </script>
+</body>
+
+</html>

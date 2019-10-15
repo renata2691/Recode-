@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+
+<body>
+    <script>
+
+        var quantidadenumeros = Number(prompt('Quantos numeros você quer digitar?'))
+        var maiornumero = 0
+
+        for (contador = 1; contador <= quantidadenumeros; contador++) {
+            var lernumeros = Number(prompt(' Digite o ' + contador +'º numero'))
+            if (maiornumero < lernumeros){
+                maiornumero = lernumeros
+            }
+        }
+            if ( maiornumero % 2 ==0){
+                var verificar = 'par'
+            }
+            else{
+                var verificar ='impar'
+            }
+             alert('O maior numero é  ' + maiornumero + ' e ele é ' + verificar)
+    </script>
+</body>
+
+</html>
