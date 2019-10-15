@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+
+<body>
+    <script>
+       /* - Faça um algoritmo usando função que receba por parâmetro um valor de um
+produto e retorne um novo valor deste produto atualizado em 25%. */
+
+        var valorProduto = Number(prompt('Digite o valor do produto'))
+
+        function juros(parametro1) {
+         juros = (25/100) * parametro1 + parametro1 
+          alert('O valor atual do produto é '+ juros)          
+        }
+       
+        juros(valorProduto)
+        
+    </script>
+</body>
+
+</html>

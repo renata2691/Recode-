@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+
+<body>
+    <script>
+        /*Fazer um algoritmo usando função que receba como parâmetro o ano de
+      nascimento de uma pessoa e o ano atual. Retorne a idade desta pessoa.*/
+        var nascimento = Number(prompt('Digite o ano do seu nascimento'))
+        var anoAtual = Number(prompt('Digite o ano atual'))
+
+        function idade(parametro1, parametro2) {
+            return parametro2 - parametro1
+        }
+
+        alert(idade(nascimento, anoAtual)) 
+    </script>
+</body>
+
+</html>
