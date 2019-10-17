@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+
+<body>
+    <script>
+        /*LER O NOME, O SEXO E A IDADE DE 10 PESSOAS
+    MOSTRAR QUANTAS SÃO DO SEXO MASCULINO E QUANTAS
+    SÃO DO SEXO FEMININO, QUANTAS SÃO MENORES DE 18
+    ANOS E QUNATOS TEM 18 ANOS OU MAIS.*/
+        var female = 0
+        var male = 0
+        var idademaior18 = 0
+        var idademenor18 = 0
+        var idadeindeterminada = 0
+        var sexoindeterminado = 0
+
+        for (i = 1; i <= 3; i++) {
+            var nome = String(prompt(i + ' ° Nome'))
+            var sexo = String(prompt('F ou M'))
+            var idade = Number(prompt('Idade'))
+
+
+            if (sexo == 'f' || sexo == 'F') {
+                female++
+            }
+            else if (sexo == 'm' || sexo == 'M') {
+                male++
+            }
+            else if((sexo != (sexo == 'f' || sexo == 'F'))){
+                sexoindeterminado++
+            }
+            else if((sexo != (sexo == 'm' || sexo == 'M')))
+
+
+            if (idade >= 18) {
+                idademaior18++
+            }
+            else {
+                idademenor18++
+            }
+
+          /*  if (NaN(Idade){
+                idadeindeterminada++
+            } 
+            else if ((sexo != (sexo == 'f' || sexo == 'F'))
+            }
+            
+
+        alert(`Temos: \n ${female} pessoas do sexo feminino e ${male} pessoas do sexo masculino \n sendo ${idademaior18} maiores de idade e  ${idademenor18} menores de idade`) */
+
+
+    </script>
+</body>
+
+</html>
