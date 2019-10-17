@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>
+        <Page Title>
+    </title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+
+<body>
+    <script>
+        /*- Criar um algoritmo que efetue o cálculo do salário líquido de um professor. Os dados fornecidos serão:
+valor da hora aula, número de aulas dadas no mês e percentual de desconto do INSS*/
+        var nome = String(prompt('Informe o nome do professor'))
+        var valorHoraAula = Number(prompt('Informa o valor da hora aula'))
+        var numeroAulasMes = Number(prompt('Informe numero de aulas dadas no mês'))
+        var inss = 0.11
+        
+
+        function f_salarioFinal(p_valorHoraAula, p_numeroAulasMes){
+            return (p_valorHoraAula * p_numeroAulasMes) * 0.89
+        }
+
+    	alert(`A remuneração total do funcionário ${nome} é de R$ ${f_salarioFinal(valorHoraAula, numeroAulasMes).toFixed(2)}`)
+
+    </script>
+</body>
+
+</html>
