@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+
+<body>
+    <script>
+        /* Entrar com um número e informar se ele é divisível por 3 e por 7.*/
+
+        var valor = Number(prompt('Digite um valor'))
+
+
+        if (valor % 3 == 0 && valor % 7 != 0) {
+            alert('Esse número é divisivel por 3')
+        }
+    
+        else if (valor % 7 == 0 && valor % 3 != 0) {
+            alert('Esse número é divisivel por 7')
+        }
+
+        else if ((valor % 3 == 0 && valor % 7 == 0 ) ){
+            alert('Esse número é divisivel por 3 e 7')
+        }
+        else {
+            alert('Esse número não é divisivel por 3 e nem por 7')
+        }
+
+
+    </script>
+</body>
+
+</html>

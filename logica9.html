@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+
+<body>
+    <script>
+        /* Construir um algoritmo que leia dois números e efetue a adição. Caso o valor somado seja maior que
+        20, este deverá ser apresentado somando-se a ele mais 8; caso o valor somado seja menor ou igual a 20,
+        este deverá ser apresentado subtraindo-se 5.*/
+
+        var valor1 = Number(prompt('Digite um valor'))
+        var valor2 = Number(prompt('Digite mais um valor'))
+
+        function f_valorFinal(p_valor1, p_valor2) {
+            return p_valor1 + p_valor2
+        }
+
+        if (f_valorFinal(valor1, valor2) > 20) {
+            alert(`A soma dos numeros é ${f_valorFinal(valor1, valor2) + 8}`)
+        }
+
+        else if (f_valorFinal(valor1, valor2) <= 20) {
+            alert(`A soma dos numeros é ${f_valorFinal(valor1, valor2) - 5}`)
+        }
+
+
+
+    </script>
+</body>
+
+</html>
