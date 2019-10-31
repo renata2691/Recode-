@@ -1,0 +1,17 @@
+main{
+    width: 90%;
+    margin: 0 auto;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    background-color: blue;
+   
+}
+
+#rodape {
+    width: 100%;
+    text-align: center;
+    
+}
